@@ -1,12 +1,12 @@
 $(document).ready(function(){
+	AjustesTela();
+	
 
 	$(window).resize(function(){
 			AjustesTela();
 	});
 
-	AjustesTela();
-
-
+	
 	function AjustesTela(){
 		if($(window).width() <= 400){
 			$('.teste').css('display', 'block');
