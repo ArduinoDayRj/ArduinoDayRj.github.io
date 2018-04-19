@@ -2,19 +2,54 @@
 	padding: 0px;
 	margin: 0px;
 }
+@font-face {
+    font-family: FontSite;
+    src: url(euphemia.ttf);
+}
 ::selection { background: #00ABB5 }
 ::-moz-selection { background: #00ABB5; }
 body{
-	font-family: Segoe, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-	
+	font-family: FontSite;
+	background-image: url(../img/bgLines.png);
+	background-repeat: repeat;
+	color:#937963;
 }
 body,html, .capa{
 	height: 100vh;
+}
+#numeros{
+	text-align: center;
+	margin-top: 30px;
+	align-items: center;
+	float: none;
+	margin:0 auto;
+}
+#imgLogo{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.teste{
+	display:inline-block;
+   vertical-align: middle;
+   float: none;
+}
+
+.numeroGrande{
+	font-size: 72px;
+	font-weight: bolder;
+}
+.subtituloGrande{
+	font-size: 18px;
+}
+.imgMais{
+	width: 60px;
+	margin-top: 10px;
 }
 .capa{
 	display: table;
 	width: 100%;
 	color: white;
+	background-color: white;
 	background-position: center;
 	background-image: url('../img/bg.png'); 
 	background-size: 500px;
@@ -28,13 +63,36 @@ body,html, .capa{
 .texto-capa img{
 	width: 800px;
 }
+#dataEvento{
+	font-size: 65px;
+	margin-bottom: -20px;
+	color: #008188;
+}
+#naoFiqueDeFora{
+	font-size: 70px;
+	font-weight: 900;
+	color: #18A6AA;
+}
+.titulosSessao{
+	font-weight: bolder;
+}
+#hubRet{
+	background-color: #E96F2D;
+	padding: 20px;
+	color: white;
+}
+#arduinoDayRet{
+	background-color: #EDA916;
+	padding: 20px;
+	color: white;
+}
 footer{
 	/*/text-align: center;*/
 	padding-top: 30px;
 	padding-bottom: 10px;
 	color: white;
 	background-color: #00878F;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 }
 footer a{
 	color: black;
@@ -51,7 +109,7 @@ table{
 	width: 100%;
 	height: 100%;
 }
-.table>tbody>tr>td{
+/*.table>tbody>tr>td{
     vertical-align:middle;
     width: 200px;
 }
@@ -62,6 +120,33 @@ table{
 th{
 	text-align: right;
 	font-size: 15px;
+}*/
+tr{
+	text-align: center;
+	color: white;
+}
+th{
+	text-align: center;
+	border: none;
+	color: #008188;
+}
+tbody > tr{
+	background-color: #008188;
+}
+.fundoMarrom{
+	background-color: #937963;
+	color: white;
+}
+.fundoAmarelo{
+	color: white;
+	background-color: #EDA916;
+}
+.fundoLaranja{
+	color: white;
+	background-color: #E96F2D;
+}
+.table{
+	background-color: transparent;
 }
 #titulo-td{
 	font-size: 20px;
@@ -168,6 +253,17 @@ tbody tr th{
 
 footer a{
 	color: white;
+}
+.carousel-indicators{
+	bottom: 5px;
+}
+
+.imgRedonda{
+	margin-top: -60px;
+	display: inline;
+}
+#menuPalestrantes{
+
 }
 
 
