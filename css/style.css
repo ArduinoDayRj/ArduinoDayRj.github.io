@@ -19,10 +19,10 @@ body,html, .capa{
 }
 #numeros{
 	text-align: center;
-	margin-top: 30px;
 	align-items: center;
 	float: none;
 	margin:0 auto;
+	margin-top: 80px;
 }
 #imgLogo{
 	padding-right: 10px;
@@ -72,6 +72,9 @@ body,html, .capa{
 	font-size: 70px;
 	font-weight: 900;
 	color: #18A6AA;
+	margin: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 .titulosSessao{
 	font-weight: bolder;
@@ -304,6 +307,10 @@ footer a{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.barrinha{
+	margin-top: 50px;
 }
 
 
