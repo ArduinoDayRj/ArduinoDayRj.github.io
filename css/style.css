@@ -85,6 +85,7 @@ body,html, .capa{
 	background-color: #EDA916;
 	padding: 20px;
 	color: white;
+	margin-bottom: 30px;
 }
 footer{
 	/*/text-align: center;*/
@@ -262,8 +263,47 @@ footer a{
 	margin-top: -60px;
 	display: inline;
 }
-#menuPalestrantes{
 
+
+
+.containerr {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #796452;
+  border-radius: 50%;
+}
+
+.containerr:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
