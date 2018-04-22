@@ -313,4 +313,35 @@ footer a{
 	margin-top: 50px;
 }
 
+.imagemPalestrante{
+	z-index: 1;
+	position: absolute;
+}
+
+.descricaoPalestrante{
+	padding: 15px; 
+	background-color: #E96F2D;
+	color: white;
+	padding-left: 200px;
+}
+
+#btnEsquerda{
+	height:40px;
+	margin-top: 20px;
+	margin-right:5px;
+	float: left;
+}
+#btnEsquerda:hover{
+	cursor: pointer;
+}
+
+#btnDireita{
+	height:40px;
+	margin-top: 20px;
+	float: left;
+}
+#btnDireita:hover{
+	cursor: pointer;
+}
+
 

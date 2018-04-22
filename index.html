@@ -77,7 +77,7 @@
        <div class="col-md-6">
          <div id="arduinoDayRet">
            <h2>Arduino Day</h2>
-           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+           <p>Arduino é uma placa fabricada na Itália utilizada como plataforma de prototipagem eletrônica que torna a robótica mais acessível a todos. Todos os anos as comunidades de makers e entusiastas ao redor do mundo se juntam num evento de um dia dedicado a troca e compartilhamento de ideias e projetos utilizando o Arduino, este evento ficou conhecido mundialmente como - Arduino Day. Aqui no Rio o evento ocorrerá no dia 5 de maio de 2018 na Estácio do Shopping Nova América com uma programação que durará o dia inteiro. Estão previstas palestras, oficinas, exposições de projetos.</p>
          </div>
        </div>
        <div class="col-md-6">
@@ -87,7 +87,7 @@
          </div>
        </div>
      </div>
-     <div class="row" style="text-align: center; margin-top: 100px;">
+     <div id="barrinhasColoridas" class="row" style="text-align: center; margin-top: 100px;">
        <div class="col-md-2 col-sm-2 barrinha"> <!-- <img src="img/barrinha.png" class="img-responsive"> --> 
         <div class="fundoAmarelo col-md-4" style="padding: 5px;"></div> 
         <div style="padding: 5px;" class="fundoLaranja col-md-4"></div> 
@@ -240,7 +240,7 @@
        </div>
      </div>
    <div style="background-color: #937963;  margin-bottom: 80px;">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-top:30px; padding-bottom: 30px;" data-interval="5000">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-top:30px; padding-bottom: 30px;" data-interval="10000">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -379,9 +379,9 @@
 
      <div class="row" id="menuPalestrantes">
       <div class="col-md-6"></div>
-      <div class="col-md-2 clearfix"> 
-        <img src="img/botaoEsquerda.png" alt="" class="img-responsive" style="height:40px; margin-top: 20px; margin-right:5px; float: left;">
-        <img src="img/botaoDireita.png" alt="" class="img-responsive" style="height:40px; margin-top: 20px; float: left">
+      <div class="col-md-2 "> 
+        <img id="btnEsquerda" src="img/botaoEsquerda.png" alt="" class="img-responsive">
+        <img id="btnDireita" src="img/botaoDireita.png" alt="" class="img-responsive">
       </div>
       <div class="col-md-4" style="background-color: #EDA916; color: white; padding: 10px; margin-top: 10px;">
        <h1>Palestrantes</h1>
@@ -389,7 +389,7 @@
      </div>
 
 
-     <div id="myCarousel2" class="carousel slide" data-ride="carousel" style="margin-bottom: 40px;" data-interval="5000">
+     <div id="myCarousel2" class="carousel slide" data-ride="carousel" style="margin-bottom: 40px;" data-interval="10000">
       <ol class="carousel-indicators">
       <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel2" data-slide-to="1"></li>
@@ -401,39 +401,39 @@
 
       <div class="item active">
           <div class="row" style="margin-bottom: 100px; margin-top: 100px;">
-          <div class="col-md-4" style="z-index: 1; position: absolute;"> 
-            <img src="img/perfil/Antoanne Pontes.png" class="img-circle img-responsive imgRedonda">  
+          <div class="col-md-4 imagemPalestrante"> 
+            <img src="img/palestrantes/Rubens Lacerda Queiroz.jpg" class="img-circle img-responsive imgRedonda">  
           </div>
           <div class="col-md-2"></div>
-          <div class="col-md-10" style="padding: 15px; background-color: #E96F2D; color: white; padding-left: 200px; ">
-            <h3>Nome</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-            <h4>Horário</h4>
+          <div class="col-md-10 descricaoPalestrante">
+            <h3>Rubens Lacerda Queiroz</h3>
+            <p>Possui graduação em Ciências da Computação pela Universidade Federal de Santa Catarina (UFSC-1996), especialização em Tecnologias da Informação Aplicadas à Educação pela Universidade Federal do Rio de Janeiro (PGTIAE-UFRJ-2015) e Mestrado em Informática pelo Programa de Pós-Graduação em Informática da Universidade Federal do Rio de Janeiro (PPGI/NCE/UFRJ-2017), na área de concentração Informática.</p>
+            <h4>Eixo: Educação</h4>
           </div>
         </div>
       </div>
 
       <div class="item">
         <div class="row" style="margin-bottom: 100px; margin-top: 100px;">
-          <div class="col-md-4" style="z-index: 1; position: absolute;"> 
-            <img src="img/perfil/Antoanne Pontes.png" class="img-circle img-responsive imgRedonda">  
+          <div class="col-md-4 imagemPalestrante"> 
+            <img src="img/palestrantes/Thiago Gabriel.jpg" class="img-circle img-responsive imgRedonda">  
           </div>
           <div class="col-md-2"></div>
-          <div class="col-md-10" style="padding: 15px; background-color: #E96F2D; color: white; padding-left: 200px; ">
-            <h3>Nome</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-            <h4>Horário</h4>
+          <div class="col-md-10 descricaoPalestrante">
+            <h3>Thiago Alverto Ramos</h3>
+            <p>Engenheiro de Controle e Automação pelo Instituto de Estudos Superiores da Amazônia (PA), mestrado em Engenharia Mecânica pelo Instituto Militar de Engenharia (RJ) e doutorando em Inteligência Artificial pela COPPE (RJ). Engenheiro, Professor Universitário, CEO Galileu Automação Eletrônica, com vasta experiência em consultoria de implantação e suporte de sistemas automatizados.</p>
+            <h4>Eixo: Sustentabilidade</h4>
           </div>
         </div>
       </div>
     
       <div class="item">
         <div class="row" style="margin-bottom: 100px; margin-top: 100px;">
-          <div class="col-md-4" style="z-index: 1; position: absolute;"> 
+          <div class="col-md-4 imagemPalestrante"> 
             <img src="img/perfil/Antoanne Pontes.png" class="img-circle img-responsive imgRedonda">  
           </div>
           <div class="col-md-2"></div>
-          <div class="col-md-10" style="padding: 15px; background-color: #E96F2D; color: white; padding-left: 200px; ">
+          <div class="col-md-10 descricaoPalestrante">
             <h3>Nome</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
             <h4>Horário</h4>
