@@ -295,7 +295,7 @@ footer a{
 }
 
 .containerr:hover .overlay {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .text {
@@ -342,6 +342,11 @@ footer a{
 }
 #btnDireita:hover{
 	cursor: pointer;
+}
+
+.logosRodape{
+
+	margin: 10px;
 }
 
 
