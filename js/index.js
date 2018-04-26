@@ -21,7 +21,7 @@ $(document).ready(function(){
 	function AjustesTela(){
 		if($(window).width() <= 400){
 			$('.teste').css('display', 'block');
-			$('#naoFiqueDeFora').css('font-size', '30px');
+			// $('#naoFiqueDeFora').css('font-size', '30px');
 			$('.imgRedonda').css('width', '180px');
 			$('.barrinha').css('margin-top', '0px');
 			$('.imagemPalestrante').css('z-index', '0');
@@ -33,9 +33,12 @@ $(document).ready(function(){
 			$('.logosRodape').css('float', 'none');
 			$('#imagensRodape').css('margin-top', '40px');
 			$('#imagensRodape').css('text-align', 'center');
+			$('#naoFiqueDeFora').css('margin-top', '50px');
+			$('#naoFiqueDeFora').css('margin-bottom', '50px');
+			$('#divBotao').css('margin-bottom', '80px');
 		}else{
 			$('.teste').css('display', 'inline-block');
-			$('#naoFiqueDeFora').css('font-size', '70px');
+			// $('#naoFiqueDeFora').css('font-size', '70px');
 			$('.imgRedonda').css('width', '100%');
 			$('.barrinha').css('margin-top', '50px');
 			$('.imagemPalestrante').css('z-index', '2');
@@ -47,6 +50,8 @@ $(document).ready(function(){
 			$('#logos').css('float', 'right');
 			$('#imagensRodape').css('margin-top', '0px');
 			$('#imagensRodape').css('text-align', 'right');
+			$('#naoFiqueDeFora').css('margin-top', '15px');
+			$('#naoFiqueDeFora').css('margin-bottom', '15px');
 		}
 	}
 });

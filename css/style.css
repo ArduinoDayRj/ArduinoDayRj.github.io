@@ -128,6 +128,7 @@ th{
 tr{
 	text-align: center;
 	color: white;
+	border:none;
 }
 th{
 	text-align: center;
@@ -349,4 +350,25 @@ footer a{
 	margin: 10px;
 }
 
+.table-responsive{
+	border:none;
+}
 
+
+@media screen and (max-width: 767px){
+	#naoFiqueDeFora{
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	#naoFiqueDeFora{
+		font-size: 50px;
+	}
+}
+
+@media screen and (min-width: 992px){
+	#naoFiqueDeFora{
+		font-size:60px;
+	}
+}
